@@ -1,0 +1,113 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+  
+}
+#navbar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    height: 85%;
+    margin: 10px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.text {
+   color: rgb(38, 38, 100);
+   margin: 10px;
+   font-size: 20px;
+}
+.text:hover{
+    color: rgb(73, 163, 220);
+}
+ 
+.text-sign{
+    height: 10px;
+    width: 10px;
+}
+.contact{
+    color: rgb(38, 38, 100);
+    padding-left: 10%;
+    text-align: center;
+}
+.contact:hover{
+    color: rgb(73, 163, 220);
+}
+.search{
+    margin-left: 30px;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+.search:hover{
+   object-fit: cover;
+    background-color:beige;
+    color: rgb(73, 163, 220); 
+    border-radius: 50%;
+}
+.login{
+    margin-left: 30px;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+.login:hover ~.login-text{
+   object-fit: cover;
+    background-color:beige;
+    color: rgb(73, 163, 220); 
+    border-radius: 50%;
+    visibility: visible;
+    
+}
+.login-text{
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: black;
+}
+
+#page1{
+    height: 97%;
+    width: 100%;
+    background-color: rgb(171, 208, 232);
+}
+#page2{
+    height: 97%;
+    width: 100%;
+    background-color: rgb(230, 182, 185);
+}
+
+
